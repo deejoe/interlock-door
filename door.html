@@ -1,0 +1,10 @@
+<p>Go to</p>
+<p><a href="http://deejoe.sdf.org/interlock" class="uri">http://deejoe.sdf.org/interlock</a></p>
+<p>right click on door.asc and Save as ... or otherwise download the file door.asc and save it to your computer.</p>
+<p>Or, open a terminal emulator on a desktop or laptop GNU/Linux system (xterm gnome-terminal rxvt or whatever), or on Mac (Terminal), and issue:</p>
+<pre><code>wget http://deejoe.sdf.org/interlock/door.asc</code></pre>
+<p>or</p>
+<pre><code>curl -O http://deejoe.sdf.org/interlock/door.asc</code></pre>
+<p>In all cases, navigate in a terminal emulator to where your copy of door.asc has been saved, and then issue:</p>
+<pre><code>gpg -d door.asc</code></pre>
+<p>This will prompt you for a password and, once the password has been entered, should display to you the file contents.</p>
